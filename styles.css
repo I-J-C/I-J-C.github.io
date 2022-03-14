@@ -1,0 +1,78 @@
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #222;
+}
+.container {
+    margin: 0 auto;
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+    min-height:720px;
+}
+.brand-statement {
+    text-align: center;
+}
+h1 {
+    margin: 20px auto;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    color: #af4caf;
+    margin-left: 3em;
+}
+img {
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 50%;
+}
+.joblist {
+    margin-left: 20px;
+}
+nav > ul {
+    width: 80%;
+    list-style: none;
+    background-color: rgba(133, 205, 250, .75);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 2em auto;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+button {
+    background-color: #ddd;
+    color: navy;
+}
+ol {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.hamgurger {
+    display: none;
+}
+
+
+@Media (max-width: 767px) {
+    .hamburger {
+        padding-top: 1.3em;
+        padding-bottom: 1.3em;
+        padding-left: 1.3em;
+        padding-right: 0;
+        margin-right: 0;
+        display: block;
+        width: 100%;
+        background-image: url('../img/213C08.jpg');
+    }
+    .nav li {
+        width: 100%;
+        text-align: center;
+    }
+}
