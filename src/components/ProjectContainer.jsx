@@ -35,6 +35,7 @@ const ProjectContainer = () => {
     // }
     return (
         <div className="projects">
+            <h2 className="projects-title">Notable Projects</h2>
             {projects?.map((project, index) => (
                 <Project class="project"
                 title={project.title}

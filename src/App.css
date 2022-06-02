@@ -41,10 +41,23 @@ font-family: 'Oleo Script', cursive; */
   color: #0b65c2;
 }
 
-.projects:nth-child(5n+1) {border-color: #d6b9a4;}
-.projects:nth-child(5n+2) {border-color: #3a837d;}
-.projects:nth-child(5n+3) {border-color: #de5969;}
-.projects:nth-child(5n+4) {border-color: #95c2bd;}
+.project {
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 3%;
+  max-width: 75%;
+}
+
+.project:nth-child(4n+1) {border: 5px solid #d6b9a4;}
+.project:nth-child(4n+2) {border: 5px solid #3a837d;}
+.project:nth-child(4n+3) {border: 5px solid #de5969;}
+.project:nth-child(4n+4) {border: 5px solid #95c2bd;}
+
+.projects-title {
+  color: #d6b9a4;
+}
 
 .name {
   font-size: 2em;
